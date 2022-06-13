@@ -1,5 +1,7 @@
 package com.kh.git;
 
+import com.kh.git.animal.Dog;
+
 public class HelloGit {
 	public static void main(String[] args) {
 		System.out.println("HelloGit");
@@ -10,5 +12,8 @@ public class HelloGit {
 		if(true) {
 			System.out.println("김태연입니댱");
 		}
+//		Dog 기능 추가
+		Dog dog = new Dog();
+		dog.bark();
 	}
 }
