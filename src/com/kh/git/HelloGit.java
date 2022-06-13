@@ -7,5 +7,8 @@ public class HelloGit {
 		for(int i=0; i<10; i++) {
 			System.out.println(i);
 		}
+		if(true) {
+			System.out.println("김태연입니댱");
+		}
 	}
 }
